@@ -23,7 +23,7 @@ const NeuralVisualizer = () => {
   const [gaba, setGaba] = useState(20);          
   
   // Grid Configuration:
-  // We use 12 neurons (4x3 layout) to fit rectangular desktop screens without overflow.
+  // 12 neurons (4x3 layout) to fit rectangular desktop screens without overflow.
   const neuronCount = 12;
   const [activations, setActivations] = useState(new Array(neuronCount).fill(0));
 
